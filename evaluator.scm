@@ -278,8 +278,8 @@
 (define (contain-defines? exp)
   (if (null? exp)
       false
-      (or (definition? (car exp))
-          (contain-defines? (cdr exp)))))
+      (or (and (pair? exp) (definition? (car exp)))
+          (and (pair? exp) (contain-defines? (cdr exp))))))
 
 ; prcedure discription
 (define (make-procedure parameters body env)
