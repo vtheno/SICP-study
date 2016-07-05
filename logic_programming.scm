@@ -148,7 +148,7 @@
    frame-stream))
 
 (define (execute exp)
-  (apply (eval (predicate exp))
+  (apply (eval (predicate exp) (scheme-report-environment 5))
          (args exp)))
 
 (define (always-true ignore frame-stream) frame-stream)
