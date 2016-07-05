@@ -9,3 +9,7 @@ some programs in the chapter 4 and 5 of SICP
 ## 6.30
 - studied 4.2
 - update the lazy evaluating method
+
+## 7.5
+- studied 4.3 4.4
+- update the code files
