@@ -19,3 +19,9 @@ some programs in the chapter 4 and 5 of SICP
 - create the main file of register machine
 - this file includes some solutions of ex
 - this file includes a few samples for register machine
+
+## 7.8
+- studied 5.4
+- create a evaluator based on the register machine
+- interesting
+- but a few functions still can't be implemented, I will solve this problem later (or never...)
