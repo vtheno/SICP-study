@@ -25,3 +25,9 @@ some programs in the chapter 4 and 5 of SICP
 - create a evaluator based on the register machine
 - interesting
 - but a few functions still can't be implemented, I will solve this problem later (or never...)
+
+## 7.9
+- studied 5.5
+- create a compiler based on the register machine and the evaluator
+- I feel dizzy...
+- I will complete few left parts later, if I can... (I don't think so)
